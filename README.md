@@ -42,4 +42,9 @@ The ipynb file can found in Explore augmentations.ipynb
 Front Camera Images from Waymo Open Dataset. Data are in TFRecord Format, the TFRecord format is a simple format for storing a sequence of binary records, which helps in data reading and processing efficiency.
 
 ### Training
-Some training has been made with different config
+ a three conifgration has been tested all of them can be checked in Model1.config, Model2.config and Model3.config files 
+ The first Model have 0.08 Learning rata and 300000 steps, The second model have 0.04 learning rate and 25000 steps while the last modle have 0.08 learning rate and 50000 steps
+ The loss result can be seen in 3 Model loss show.png
+ and it can clearly see the first modle have the least loss because of n increase while the second and third model have higher loss
+
+so at the end we can clearly see if we increased number of steps, the learning will be better also if we use data augemntation like flipping, scaling, and random cropping that will help to improve the accuracy 
