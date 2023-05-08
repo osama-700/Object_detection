@@ -38,8 +38,8 @@ Step 4- Step 4 - Improve the performances
 The ipynb file can found in Explore augmentations.ipynb
 
 
-Dataset
+### Dataset
 Front Camera Images from Waymo Open Dataset. Data are in TFRecord Format, the TFRecord format is a simple format for storing a sequence of binary records, which helps in data reading and processing efficiency.
 
-Training
+### Training
 Some training has been made with different config
